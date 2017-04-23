@@ -9,7 +9,7 @@ Archive:  zipper_50d3dc76dcdfa047178f5a1c19a52118.zip
 warning:  filename too long--truncating.
 :  bad extra field length (central)
 ```
-From the alert, it sugests that the "file name" bytes and "extra length" bytes are not correct.
+From the alert, it sugests that the "file name" bytes and "extra length" bytes are not correct.<br>
 Here is a useful document about zip file: <https://users.cs.jmu.edu/buchhofp/forensics/formats/pkzip.html><br>
 
 File:
@@ -30,9 +30,9 @@ File:
 000000d0: 0004 e803 0000 504b 0506 0000 0000 0100  ......PK........
 000000e0: 0100 4e00 0000 8800 0000 0000            ..N.........
 ```
-Pretty short file, I'm just gonna change it by hand.
-The `0800` replaced `2923`, 8 is the length of the filename. We know the length base on the fact that there is 8-blank bytes at the location of "extra length" bytes.
-The `666c 6167 2e74 7874` replaced `0000 0000 0000 0000`. You can name it whatever you want, I just make it `flag.txt` in this case. exactly 8 characters of length.
+Pretty short file, I'm just gonna change it by hand.<br>
+The `0800` replaced `2923`, 8 is the length of the filename. We know the length base on the fact that there is 8-blank bytes at the location of "extra length" bytes.<br>
+The `666c 6167 2e74 7874` replaced `0000 0000 0000 0000`. You can name it whatever you want, I just make it `flag.txt` in this case. exactly 8 characters of length.<br>
 Have 2 of those modifies both at the header and the end of the zip file.
 And this is what we have.
 
