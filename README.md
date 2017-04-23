@@ -9,7 +9,7 @@ Archive:  zipper_50d3dc76dcdfa047178f5a1c19a52118.zip
 warning:  filename too long--truncating.
 :  bad extra field length (central)
 ```
-From the alert, it sugests that the "file name" bytes and "extra length" bytes is not correct.
+From the alert, it sugests that the "file name" bytes and "extra length" bytes are not correct.
 Here is a useful document about zip file: <https://users.cs.jmu.edu/buchhofp/forensics/formats/pkzip.html><br>
 
 File:
