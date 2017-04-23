@@ -13,10 +13,7 @@ ci = [] # store c1, c2, c3, c4, c5
 ni = [] # store n1, n2, n3, n4, n5
 ```
 
-we need to find all coefficient Ti's sastifying that 
-```python
-Ti = 1 (mod Ni) and Ti = 0 (mod Nj) for all i!=j
-```
+we need to find all coefficient Ti's sastifying that `Ti = 1 (mod Ni) and Ti = 0 (mod Nj) for all i!=j` <br>
 by using Chinese Remainder Theorem
 ```python
 T = [] 
