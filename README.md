@@ -26,10 +26,7 @@ T.append(crt([0,0,1,0,0],ni))
 T.append(crt([0,0,0,1,0],ni))
 T.append(crt([0,0,0,0,1],ni))
 ```
-Using Hastad's, we have
-```python
-g(x)= (Sigma)i*Ti*gi(x) that g(M) = 0 (mod (Pi)Ni)
-```
+According to Hastad's, we have `g(x)= (Sigma)i*Ti*gi(x) that g(M) = 0 (mod (Pi)Ni)`<br>
 By using coppersmith method, we can compute the root x[0] = M
 Hastad stated that M exist among roots of Coppersmith method, in this case we only have 1 root
 
