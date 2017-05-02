@@ -63,7 +63,7 @@ PCTF{f0rens1cs_yay}
 ## multicast - 175
 
 Hastad's broadcast attack using Coppersmith method.
-We have 1 message, linearly padding, decrypted by multiple public key (Ni, e=5)
+We have 1 message, linearly padding, decrypted by multiple public keys (Ni, e=5)
 According to Theorem 2 (Hastad): `If a large enough group of people is involved, the attacker can recover the plaintext Mi from all the ciphertext with similar methods`
 
 ```
