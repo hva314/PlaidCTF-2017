@@ -1,5 +1,7 @@
 # PlaidCTF-2017
 
+Official write-up has been move to [Blue's Little Blog](https://hva314.github.io/blog/2017/05/01/PlaidCTF-2017-Writeup.html)
+
 ## Zipper - 50 
 
 I have this alert when trying to unzip the file:
